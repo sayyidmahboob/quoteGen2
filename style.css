@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Teko:wght@300&family=Tiro+Devanagari+Hindi&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(96, 149, 248);
+}
+
+.container {
+  width: 610px;
+  /* height: 400px; */
+  background: whitesmoke;
+  border-radius: 10px;
+  padding: 30px 30px 25px;
+}
+
+.container header {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.container .content {
+  margin: 30px 0;
+}
+
+.container .quote_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote_area .quote {
+  font-size: 1.4375rem;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* design quotes symbols */
+.quote_area i:first-child {
+  margin: 4px 10px 0 0;
+}
+
+.quote_area i:last-child {
+  margin: 0px 0px 4px 10px;
+}
+
+.content .author {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+  margin-right: 8px;
+}
+
+/* .container .buttons {
+  border-top: 2px solid #ccc;
+} */
+
+.buttons .features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+
+.features ul {
+  list-style: none;
+  margin: 0 5px;
+  width: 45px;
+  height: 45px;
+  border: 2px solid #5372f0;
+  border-radius: 50%;
+  color: #5372f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.features button {
+  border: none;
+  outline: 1;
+  background: #5474f1;
+  /* background: #5372f0; */
+  color: aliceblue;
+  padding: 15px;
+  border-radius: 40px;
+  cursor: pointer;
+}
