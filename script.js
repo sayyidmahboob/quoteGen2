@@ -32,7 +32,7 @@ quoteBtn.addEventListener("click", rndQ);
 
 function speak() {
   let utter = new SpeechSynthesisUtterance(
-    "${quoteText.innerText} by ${authName.innerText}"
+    `${quoteText.innerText} by ${authName.innerText}`
     //  ${quoteText.innerText} by ${authName.innerText}
   );
   return speechSynthesis.speak(utter);
