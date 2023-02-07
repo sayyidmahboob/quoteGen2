@@ -12,13 +12,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(96, 149, 248);
+  color: #160d08;
+  background: url("https://www.nasa.gov/sites/default/files/thumbnails/image/pia21421-cr.jpg");
+  background-size: cover;
+  background-position: 50% 21%;
 }
 
 .container {
   width: 610px;
   /* height: 400px; */
   background: whitesmoke;
+  box-shadow: 10px 10px 16px -1px rgba(0, 0, 0, 0.35);
   border-radius: 10px;
   padding: 30px 30px 25px;
 }
